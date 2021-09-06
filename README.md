@@ -1,2 +1,2 @@
-# Corey-Software-Website
-The website of Corey Software
+# Corey Software Website
+This is the website of Corey Software.
