@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8"/>
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <title>Resourceful FAQ</title>
+      <meta name="description" content="The FAQ page for Resourceful: a resource pack creation tool for Minecraft">
+      <meta name="keywords" content="Corey, Corey Software, Resourceful, Minecraft, Resource, Resource Pack, FAQ">
+      <link rel="icon" href="favicon.ico?v=6" type="image/x-icon"/>
+      <link rel="stylesheet" href="css/site.css" type="text/css"/>
+      <script src="https://kit.fontawesome.com/f470a1fbaa.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <header>
+         <h1>Resourceful FAQ</h1>
+         <nav>
+             <a href="index.html">Home</a>
+             <a href="faq.html">Resourceful FAQ</a>
+         </nav>
+      </header>
+      <main>
+         <section>
+            <h2>Questions</h2>
+            <ul id="questionsIndex">
+               <li><a href="#Question_One">What can a resource pack change in Minecraft Bedrock Edition</a></li>
+               <li><a href="#Question_Two">What "complicated stuff" does Resourceful handle</a></li>
+               <li><a href="#Question_Three">Why make a tool for Minecraft Bedrock Edition instead of Minecraft Java Edition</a></li>
+               <li><a href="#Question_Four">Will Resourceful ever be able to make resource packs for Java Edition too</a></li>
+               <li><a href="#Question_Five">What platforms are Resourceful being developed for</a></li>
+               <li><a href="#Question_Six">Does Minecraft allow custom resource packs</a></li>
+               <li><a href="#Question_Seven">Will Resourceful be able to make RTX resource packs</a></li>
+               <li><a href="#Question_Eight">What’s the difference between Java and Bedrock resource packs</a></li>
+               <li><a href="#Question_Nine">If it’s so hard to learn how to make a resource pack, how did you do it</a></li>
+               <li><a href="#Question_Ten">I really like this idea - how can I help with development</a></li>
+               <li><a href="#Question_Eleven">What if my question isn’t on the FAQ</a></li>
+            </ul>
+         </section>
+         <section>
+            <ul id="questionsList">
+               <li>
+                  <h3 class="question" id="Question_One">What can a resource pack change in Minecraft Bedrock Edition</h3>
+                  <div class="answer">
+                     <p>Resource packs can change pretty much everything you see or hear in Minecraft. They can change the designs (textures) applied to blocks, mobs, entities, etc. They can change the shape of mobs and entities to be something different. They can change the music and sounds that the game makes to be different sounds or to be played differently. They can change the actual text that you see on screen to something different, such as changing all occurrences of Roman numerals to Arabic numerals (<span class="roman_numeral">IV</span> -> 4).</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Two">What "complicated stuff" does Resourceful handle</h3>
+                  <div class="answer">
+                     <p>The main thing that Resourceful does is it takes the 2D textures that Minecraft uses and makes them 3D so that you can edit a texture while it looks like it does in the game instead of editing it while it is flat. Beyond that, Resourceful also handles the naming of files, file structure, and some JSON editing. As new updates come out it will be able to do more to make the resource packs you create with Resourceful be more feature-rich.</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Three">Why make a tool for Minecraft Bedrock Edition instead of Minecraft Java Edition</h3>
+                  <div class="answer">
+                     <p>There are a couple of reasons to make Resourceful for Minecraft Bedrock Edition. The first is that I primarily play on Bedrock Edition. This means I have the most experience with the platform that I am developing for.</p>
+                     <p>The second is that there are already a lot of tutorials for how to make resource packs for Minecraft Java Edition, but not very many for Bedrock Edition. This means that Resourceful would be more important for the Bedrock community since it replaces the need for tutorials.</p>
+                     <p>The third is that Bedrock Edition is on more platforms. Java is on Windows, Mac, and Linux, whereas Bedrock is on Windows, Consoles (Xbox, Playstation, Switch), and Mobile (Apple, Android). This means that the resource packs you create can be shared with your friends*.</p>
+                     <p>The final reason is the environment. From my experience, people on Java Edition tend to play on servers when they want to play with other people. Usually, servers have their own resource packs that they want their players to use, thus diminishing the importance of custom resource packs. Also, Bedrock Edition players tend to join a friend’s world/realm when they want to play together. This lends itself to using and sharing a custom resource pack since it is more informal and less regulated than a typical server.</p>
+                     <p class="subtle">*Currently it is difficult to transfer resource packs to consoles (Xbox, Playstation, Switch). However, they can still easily experience resource packs hosted on other people's worlds.</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Four">Will Resourceful ever be able to make resource packs for Java Edition too</h3>
+                  <div class="answer">
+                     <p>Probably. Bedrock Edition is a great place for me to start, but that doesn't mean I want to just do Bedrock Edition. I think it is a good idea to expand Resourceful’s compatibility to Java Edition.</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Five">What platforms are Resourceful being developed for</h3>
+                  <div class="answer">
+                     <p>Currently, Resourceful is being developed to run on Windows 10. Other platforms such as macOS and Linux may be added if the demand is high enough. Also, if it could work well, a tablet version for iPadOS and Android may also be a possibility.</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Six">Does Minecraft allow custom resource packs</h3>
+                  <div class="answer">
+                     <p>Yes! Minecraft fully supports resource packs whether they come from the Minecraft Marketplace built into the game or from somewhere else like Resourceful or a download from a friend. Minecraft Bedrock Edition makes it super easy to add custom resource packs to your game and to share packs with your friends due to Bedrock Edition’s .mcpack filetype. Also, unlike behavior packs (modpacks), resource packs don’t disable achievements, meaning that it isn’t considered cheating by the game.</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Seven">Will Resourceful be able to make RTX resource packs</h3>
+                  <div class="answer">
+                     <p>Making custom RTX resource packs sounds really cool and I would love to be able to do that, but there are a couple of problems with it. The first is the size of the audience. RTX resource packs require an Nvidia RTX graphics card on Windows 10. That is a very small segment of the Minecraft community. The second problem is that it is very different from normal resource packs meaning it would be a lot of time and effort on my part to get it working. I think it would be a better use of my time to spend that time and effort working on features to benefit all platforms rather than just Windows 10 computers with Nvidia RTX graphics cards.</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Eight">What’s the difference between Java and Bedrock resource packs</h3>
+                  <div class="answer">
+                     <p>There are a couple of differences that I have noticed so far (I don’t do much with Java resource packs). The main difference is that Java Edition has blockstates JSON files that allow for some pretty cool things including connected textures. Other than that, there are some differences in the file structure of the resource packs as well as some differences in the names of the textures. All of the differences mean that you cannot use a Java Edition resource pack on Bedrock Edition and vice versa.</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Nine">If it’s so hard to learn how to make a resource pack, how did you do it</h3>
+                  <div class="answer">
+                     <p>I learned the basics of Bedrock Edition resource packs from the sparse tutorials online and learned the more advanced things by downloading the vanilla (default) Bedrock Edition resource pack from Minecraft’s site and tinkering with things to see what changed. Also, while programming Resourceful, whenever something looks different in Resourceful than it does in Minecraft, I find out why instead of just fixing it.</p>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Ten">I really like this idea - how can I help with development</h3>
+                  <div class="answer">
+                     <p>There are a couple of ways you can help. The first is that you can tell your friends about Resourceful. Since Corey Software is such a small company and relatively new, we don’t have much publicity yet. This means that even if Resourceful was the best thing since sliced bread, it could still fail simply because people don’t know about it.</p>
+                     <p>The second is that you can provide suggestions and feedback. You can help us to decide what is best for Resourceful whether that be a new feature, a change to an existing feature, or a removal of a feature. The best way to do this is to join our Discord or follow us on other social media. That way you can hear what we are thinking and doing and you can make suggestions on how to make Resourceful better.</p>
+                     <p>The third way is that you can support Resourceful on Kickstarter. A good start could mean a lot for Resourceful and Kickstarter is a great way to give Resourceful that good start.</p>
+                     <div class="socialLink">
+                        <a href="https://www.kickstarter.com/profile/coreysoftware" target="_blank" rel="noopener noreferrer" aria-label="Kickstarter" class="iconLink">
+                           <i class="fab fa-kickstarter fa-2x"></i> <span>Resourceful on Kickstarter</span>
+                        </a>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <h3 class="question" id="Question_Eleven">What if my question isn’t on the FAQ</h3>
+                  <div class="answer">
+                     <p>If your question is not on this list, we would be happy to answer your question either on our Discord or by email at <a href="mailto:jon@coreysoftware.com?subject=I Have a Question" target="_blank" rel="noopener noreferrer">jon@coreysoftware.com.</a></p>
+                     <div class="socialLink">
+                        <a href="https://discord.gg/y8tacVUeJJ" target="_blank" rel="noopener noreferrer" aria-label="Discord" class="iconLink">
+                           <i class="fab fa-discord fa-2x"></i> <span>Corey Software Discord Server</span>
+                        </a>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </section>
+      </main>
+      <footer>
+         <div>
+            <p>Check us out at:</p>
+            <br>
+            <a href="https://www.youtube.com/channel/UC0Wp6xfRFtWM5mUI8fTI29w" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+               <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/people/Corey-Software/100070299439909/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+               <i class="fab fa-facebook fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/CoreySoftware" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+               <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://discord.gg/y8tacVUeJJ" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+               <i class="fab fa-discord fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.kickstarter.com/profile/coreysoftware" target="_blank" rel="noopener noreferrer" aria-label="Kickstarter">
+               <i class="fab fa-kickstarter fa-2x"></i>
+            </a>
+         </div>
+      </footer>
+   </body>
+</html>
