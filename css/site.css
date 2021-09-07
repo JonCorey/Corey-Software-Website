@@ -5,12 +5,17 @@ html {
    margin-right: 1rem;*/
    width: 100%;
    min-width: fit-content;
+   box-sizing: border-box;
 }
 body {
    width: 100%;
    max-width: 1080px;
    margin: auto;
    background-color: rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+* {
+   box-sizing: inherit;
 }
 header {
    background-color: #000;
@@ -216,7 +221,7 @@ footer p {
       max-width: 350px;
    }
 }
-@media (max-width:315px) {
+@media (max-width:415px) {
    h1 {
       font-size: 1.5rem;
    }
