@@ -5,17 +5,12 @@ html {
    margin-right: 1rem;*/
    width: 100%;
    min-width: fit-content;
-   box-sizing: border-box;
 }
 body {
    width: 100%;
    max-width: 1080px;
    margin: auto;
    background-color: rgb(255, 255, 255);
-   box-sizing: border-box;
-}
-* {
-   box-sizing: inherit;
 }
 header {
    background-color: #000;
@@ -226,9 +221,25 @@ footer p {
       font-size: 1.5rem;
    }
    nav a {
+      font-size: 0.5rem;
       width: 5rem;
    }
    h2 {
       font-size: 1.25rem;
+   }
+}
+@media (max-width:350px) {
+   h1 {
+      font-size: 1.25rem;
+   }
+   nav a {
+      font-size: 0.5rem;
+      width: 30%;
+   }
+   h2 {
+      font-size: 1rem;
+   }
+   p {
+      font-size: 0.75rem;
    }
 }
