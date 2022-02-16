@@ -209,6 +209,11 @@ footer p {
 .fa-kickstarter:hover {
    color: #05CE78c0;
 }
+@media (max-width:768px) {
+   html {
+      font-size: 20px;
+   }
+}
 @media (max-width:480px) {
    #resourcefulLogo {
       width: 100%;
