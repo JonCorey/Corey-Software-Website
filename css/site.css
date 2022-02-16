@@ -23,8 +23,8 @@ header {
    margin-right: -1rem;*/
 }
 main {
-   padding-left: 0.5rem;
-   padding-right: 0.5rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
 }
 h1 {
    font-size: 2.5rem;
@@ -122,7 +122,7 @@ section {
    list-style: none;
 }
 #questionsList {
-   padding-left: 40px;
+   padding-left: 20px;
 }
 #questionsList li {
    list-style: square;
@@ -155,7 +155,8 @@ footer a, footer p, footer div {
 }
 footer a {
    display: inline-block;
-   width: 85px;
+   width: 17%;
+   max-width: 85px;
 }
 footer {
    text-align: center;
@@ -212,6 +213,9 @@ footer p {
 @media (max-width:768px) {
    html {
       font-size: 20px;
+   }
+   .answer {
+      padding-left: 20px;
    }
 }
 @media (max-width:480px) {
